@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Arena Hme Page</title>
+    <link rel="stylesheet" href="style1.css" />
+    <!-- Google Fonts -->
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Navigation Bar -->
+      <nav>
+        <div class="logo">
+          <h1>Photo Arena</h1>
+        </div>
+        <div class="menu">
+          <a href="#"> Home </a>
+          <a href="#" id="intro"> Intro </a>
+          <a href="#" id="about"> About us </a>
+          <a href="#" id="gallery"> Gallery </a>
+        </div>
+      </nav>
+      <main>
+        <section>
+          <h3>World of Images</h3>
+          <h1><span class="nameslideshow"> </span> Photography</h1>
+
+          <a href="#" class="btn1" id="learn"> Learn More </a>
+          <a href="#" class="btn2" id="login"> Login </a>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      document.getElementById("login").addEventListener("click", function () {
+        window.location.href = "http://127.0.0.1:5500/index2.html";
+      });
+      document.getElementById("learn").addEventListener("click", function () {
+        window.location.href = "http://127.0.0.1:5500/index3.html";
+      });
+      document.getElementById("intro").addEventListener("click", function () {
+        window.location.href = "http://127.0.0.1:5500/index3.html";
+      });
+      document.getElementById("about").addEventListener("click", function () {
+        window.location.href = "http://127.0.0.1:5500/index7.html";
+      });
+
+      document.getElementById("gallery").addEventListener("click", function () {
+        window.location.href = "http://127.0.0.1:5500/index4.html";
+      });
+
+    </script>
+  </body>
+</html>
